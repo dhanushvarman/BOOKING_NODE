@@ -7,7 +7,7 @@ const URL = process.env.DB;
 const app = express();
 
 app.use(cors({
-    origin:"https://6370adc952032d141f835998--iridescent-sable-448c22.netlify.app"
+    origin:"https://iridescent-sable-448c22.netlify.app"
 }))
 
 app.use(express.json());

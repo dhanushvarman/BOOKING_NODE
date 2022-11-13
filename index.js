@@ -7,7 +7,7 @@ const URL = process.env.DB;
 const app = express();
 
 app.use(cors({
-    origin:"https://iridescent-sable-448c22.netlify.app",
+    origin:"*",
 
 }))
 
